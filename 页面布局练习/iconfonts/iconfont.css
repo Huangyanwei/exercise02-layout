@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1618597288483'); /* IE9 */
+  src: url('iconfont.eot?t=1618597288483#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPsAAsAAAAACBAAAAOgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDbIMnATYCJAMMCwgABCAFhG0HQhv5BhFVnE3IfhbGjo/O3LqLRCNAI1vWJ0OU6GtFPDy/H+7c996XmactqXbxuCTgCe8LmQSJkFcaGgkRqoe+PzBOYalNPMEKORe+y7c2ZThUhYxQLMl58F2ekV+McPkA7fk6XaUqZCtc/7h3+lvnBTTfXZ7T2vv8UxdgHFCgY2/QtEAS9D5gQ/czm0CvGavi2MjCAadVmI0C8SY02BenzWiUBmJo5XVFzyLeq7TpbVrBu+D78d92tCRVZra8eGYYgLP/S+gsDT+ny/HQQ3CnM4HvR8YqCvG40nItR5FVWa8qKc3ptSKkqfz/HQFHE9XWHx5JEDUztx8sUjTxS8jhJNI05F019+Hq12jwAd8l2zjVI8UUAwdFf+9a+tSeAQjGCK5l7t81jRwgeByqZ97fc/BaIKumlgRAMHgtM7S2ER60soFAmLulmnYcQDXM+1pj0HJnh2d313F/37lqL2Bnz2mPE+6nT7O74za3I9Oxa7q4L9+95wDrEarDtPf3opMd4YKO4Fo4jMEBxIrJsJoaJqc6AYmhrg7B7Ix0QhDIenzHenZnaH15rapf+3GW0M/JOZd21uOiO5ueGa3HjdVXz3arB60Oax66rTtME7N6NH26NeNqMXV8GGwd0c8FaDBLS8iOwzmfoc3XZjajr20z8HDVMzAupiS8uSuA43wj/BbPU8hI298slbTxPpkFgTU4JYUSSffILF8XyoIJl87NF/PM64qXgTjKuMcjO7NUmfPjIr0AOMM/7RsB9kNsnVLBRiXF+feC3IPshVoxNXXOqqrOvWtjrQrZuYcU/4ryS5ySuTqH2OwB9o1uGqwWOE9Bd5fLID/He/uZvzF5LtHnTa3xSqKAH9i328DT3TmL7tFWguf+Om7HgqLxTW0uCsfhGN7spd9jSiBLMOjIMeo33DYhSEyhFbgISWMastYsphBWodJnF2qtPei1ounfZwyLRenBshdAGPaGZNBHyIZ9MIXwhcqkP9SGI4ZelzE2Yp/5sMkRYys4QPcE29OibL0kYf4Z9Ta1nOYH5Duyt34o0jwfb3BBnqKN33UpokAxzVDDfDhNBCuTw15SI7JWWaaqrpT2NAeJIwy1BBqAzhOwemShvNIiKXz+DGmbSYsbUFXmO8Q8WzkopPIOmEaydELdyj7eTisJoQCFkRmowYQmK0LAWl3NQT2RMgNCq0pGxVRXSbq8bH6/ZdDLXCdHihxFdYO2o5M39mGXY3O2pdCsgwA=') format('woff2'),
+  url('iconfont.woff?t=1618597288483') format('woff'),
+  url('iconfont.ttf?t=1618597288483') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1618597288483#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-weibo:before {
+  content: "\e67a";
+}
+
+.icon-shixinwujiaoxing:before {
+  content: "\e626";
+}
+

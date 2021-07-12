@@ -1,0 +1,23 @@
+{
+  "id": "2493158",
+  "name": "电影",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2742669",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "10446124",
+      "name": "实心五角星",
+      "font_class": "shixinwujiaoxing",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    }
+  ]
+}

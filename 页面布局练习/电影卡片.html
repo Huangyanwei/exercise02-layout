@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./images">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- 引入iconfont（图标字体）文件 -->
+        <link rel="stylesheet" href="./iconfont/iconfont.css">
+        <link rel="stylesheet" href="./iconfonts/iconfont.css">
+        <title>hhh</title>
+        <style>
+
+            /* 卡片外容器 */
+            .outer{
+                width: 280px;
+                height: 410px;
+                margin: auto;
+                box-shadow:1px 1px 10px rgb(219,219,219);
+            }
+            /* 图片放置板块 */
+            .top{
+                height: 184px;
+                width: 100%;
+                /* 将图片保存在本地项目创建的文件内，即根目录一致 */
+                background-image: url("images/film.jpg");
+                background-size:280px;
+                position: relative;
+            }
+            /* 电影介绍板块 */
+            .middle{
+                height: 152px;
+                width: 100%;
+                border-bottom: 1px solid rgb(235, 235, 235);
+            }
+            .middle h2{
+                font-size:22px;
+                padding-left: 25px;
+                margin-top: 15px;
+                color: #717171;
+            }
+            p{
+                padding-left: 25px;
+                color: rgb(172,170,170);
+            }
+            p::before{
+                content: "\e628";
+            }
+            .middle span{
+                color: rgb(172,170,170);
+                font-size: 17px;
+                padding-left: 25px;
+            }
+
+            /* 底部评分板块 */
+            .bottom{
+                height: 60px;
+                width: 100%;
+            }
+
+            .bottom .iconfont{
+                line-height: 55px;
+                padding-left: 25px;
+                font-size: 23px;
+                color: rgb(172,170,170);
+            }
+
+            .outer .bottom #span1{
+                color: seagreen;
+            } 
+
+            .outer .bottom #span2{
+                padding-left:0px;
+                margin-left:-5px;
+            }
+
+            .outer .bottom #span3{
+                margin-left: 88px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="outer">
+            <div class="top"></div>
+            <div class="middle">
+                <h2>动画电影</h2>
+                <p class="iconfont icon-dizhi">
+                    &nbsp;&nbsp;动画
+                </p>
+                <span>
+                    这是一部迪士尼的电影，非常                   
+                </span>
+                <span>
+                    非常的好看！！！
+                </span>
+            </div>
+            <div class="bottom">
+                
+                <span class="iconfont" id="span1">&#xe626;&#xe626;</span>
+                <span class="iconfont" id="span2">&#xe626;&#xe626;</span>
+                <span class="iconfont" id="span3">&#xe67a;</span>
+            </div>
+        </div>
+    </body>
+</html>
